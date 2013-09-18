@@ -1,0 +1,37 @@
+{
+  "name": "robust-scale",
+  "version": "0.0.0",
+  "description": "Multiplies a nonoverlapping increasing sequence of floats by a single float",
+  "main": "robust-scale.js",
+  "directories": {
+    "test": "test"
+  },
+  "dependencies": {
+    "tape": "~1.1.0",
+    "two-product": "~0.0.0",
+    "two-sum": "~0.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "tap test/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mikolalysenko/robust-scale.git"
+  },
+  "keywords": [
+    "nonoverlapping",
+    "exact",
+    "float",
+    "multiply",
+    "product",
+    "scale",
+    "sequence",
+    "robust"
+  ],
+  "author": "Mikola Lysenko",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mikolalysenko/robust-scale/issues"
+  }
+}
