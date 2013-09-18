@@ -7,11 +7,12 @@
     "test": "test"
   },
   "dependencies": {
-    "tape": "~1.1.0",
     "two-product": "~0.0.0",
     "two-sum": "~0.1.0"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "tape": "~1.1.0"
+	},
   "scripts": {
     "test": "tap test/*.js"
   },
