@@ -18,7 +18,7 @@ function scaleLinearExpansion(e, b, result) {
 	var count = 0
 	twoProduct(e[0], b, q)
 	if(q[0]) {
-		result[count++] = q[0]
+		g[count++] = q[0]
 	}
 	for(var i=1; i<n; ++i) {
 		twoProduct(e[i], b, t)
