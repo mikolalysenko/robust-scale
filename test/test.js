@@ -14,5 +14,8 @@ require("tape")(function(t) {
     }
   }
 
+  var s = robustScale([ -2.4707339790384e-144, -1.6401064715739963e-142, 2e-126 ], -10e-64)
+  t.ok(s[s.length-1]<0)
+
 	t.end()
 })
