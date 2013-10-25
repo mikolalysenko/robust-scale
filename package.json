@@ -1,6 +1,6 @@
 {
   "name": "robust-scale",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Multiplies a nonoverlapping increasing sequence of floats by a single float",
   "main": "robust-scale.js",
   "directories": {
