@@ -5,14 +5,16 @@ var twoSum = require("two-sum")
 
 module.exports = scaleLinearExpansion
 
-function scaleLinearExpansion(e, scale, result) {
+function scaleLinearExpansion(e, scale) {
 	var n = e.length
-	var g
-	if(result) {
-		g = result
-	} else {
-		g = new Array(2 * n)
+	if(n === 1) {
+		var ts = twoProduct(e[0], scale)
+		if(ts[0]) {
+			return ts
+		}
+		return [ ts[1] ]
 	}
+	var g = new Array(2 * n)
 	var q = [0.1, 0.1]
 	var t = [0.1, 0.1]
 	var count = 0
@@ -41,19 +43,6 @@ function scaleLinearExpansion(e, scale, result) {
 	}
 	if(count === 0) {
 		g[count++] = 0.0
-	}
-	if(result) {
-    if(count < g.length) {
-      var ptr = g.length-1
-      count--
-      while(count >= 0) {
-        g[ptr--] = g[count--]
-      }
-      while(ptr >= 0) {
-        g[ptr--] = 0.0
-      }
-    }
-		return g
 	}
 	g.length = count
 	return g
