@@ -5,12 +5,15 @@
   "main": "robust-scale.js",
   "directories": {},
   "dependencies": {
-    "two-product": "^1.0.0",
+    "two-product": "^1.0.2",
     "two-sum": "^1.0.0"
   },
   "devDependencies": {
     "tape": "^2.12.3",
-    "validate-robust-sequence": "^1.0.0"
+    "validate-robust-sequence": "^1.0.0",
+    "robust-compare": "^1.0.0",
+    "robust-sum": "^1.0.0",
+    "double-to-base-2-string": "^1.0.2"
   },
   "scripts": {
     "test": "tape test/*.js"
