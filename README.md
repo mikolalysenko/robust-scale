@@ -27,4 +27,4 @@ Multiplies a nonoverlapping increasing sequence of floats by a float.
 ## Credits
 Based on JRS robust geometry predicates
 
-Implementation (c) 2013 Mikola Lysenko. MIT License
+Implementation (c) 2013-2014 Mikola Lysenko. MIT License
