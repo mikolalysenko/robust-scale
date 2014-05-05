@@ -3,8 +3,6 @@
 var twoProduct = require("two-product")
 var twoSum = require("two-sum")
 
-var b2str = require("double-to-base-2-string")
-
 module.exports = scaleLinearExpansion
 
 function scaleLinearExpansion(e, scale) {
