@@ -2,6 +2,10 @@ robust-scale
 ============
 Scales a nonoverlapping increasing sequence of floats by a single floating point value.
 
+[![testling badge](https://ci.testling.com/mikolalysenko/robust-scale.png)](https://ci.testling.com/mikolalysenko/robust-scale)
+
+[![build status](https://secure.travis-ci.org/mikolalysenko/robust-scale.png)](http://travis-ci.org/mikolalysenko/robust-scale)
+
 ## Install
 
 		npm install robust-scale
